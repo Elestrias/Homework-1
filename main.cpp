@@ -18,6 +18,7 @@ vector<string> parseText(string& text){
         }
         i++;
     }
+    sentence += text[i];
     sepText.push_back(sentence);
     return sepText;
 }
