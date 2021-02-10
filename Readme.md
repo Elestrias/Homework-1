@@ -15,9 +15,9 @@ STL 17 C++ Standard
   ### parseText
    ***input:*** string reference.  
    ***output:*** vector of strings.<br/>
-   ***function description***: This function takes a string of text and returns vector of strings with separated sentences of given text.
+   ***function description***: This function takes a string of text and returns vector of vectors of strings with separated sentences and words of given text.
   ### getSentences
-  ***intput:*** reference on vector of strings with text sentences, reference on string with given word.<br/>
-  ***output:*** vector of strings with formatted that contain given word.<br/>
+  ***intput:*** vector of vectors of strings with text sentences and words, reference on string with given word.<br/>
+  ***output:*** vector of strings with formatted searched words.<br/>
   ***function:*** function searches for sentences that contain given word and format this word in uppercase in them. 
   
